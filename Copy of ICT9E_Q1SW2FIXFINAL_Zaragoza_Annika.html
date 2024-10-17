@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login Page</title>
+	<!-- FONTS -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
+	<!-- ICONS -->
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+	<style type="text/css">
+		body {
+			font-family: Dancing Script;
+			background: url('https://wallpapercave.com/wp/wp6125905.jpg') no-repeat;
+			background-size:cover;
+		}
+
+		* {
+			box-sizing:border-box;
+		}
+
+		form {
+			left:50%;
+			top:50%;
+			position:absolute;
+			transform: translate(-50%,-50%);
+			background:none;	
+			padding:10px 10px 80px 10px;	
+			text-align:center;
+			border-radius:20px;
+			width:350px;
+		}
+
+		img {
+			width:130px;
+			height:130px;
+			border:5px solid #fff;
+			border-radius:50%;
+			margin-top:20px;
+			margin-bottom:20px;
+			background:darkviolet;
+			background-position:center;
+		}
+
+		input {
+		border-radius: 8px;
+		backdrop-filter: blur(20px);
+		}
+
+		.container {
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .container input[type="text"],
+        .container input[type="password"],
+        .container input[type="file"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+		.header {
+            text-align: center;
+            padding: 5px;
+            background: #0C0910;
+            color:#0C0910;
+        }
+
+		.input-container {
+			display:flex;
+			width:100%;
+			margin-bottom:15px;
+		}
+
+		.icon {
+			padding:10px;
+			background:darkviolet;
+			color:#fff;
+			min-width:50px;
+			text-align:center;
+
+		}
+
+		.input-field {
+			width:100%;
+			padding:5px;
+			outline:none;
+			font-size:15px;
+		}
+
+		.input-field:focus{
+			border:2px solid darkviolet;
+		}
+
+		.btn {
+			background:darkviolet;
+			color:#fff;
+			padding:15px 20px;
+			border:none;
+			cursor:pointer;
+			width:100%;
+			font-size:18px;
+		}
+
+		.btn:hover {
+			background:#A288E3;
+		}
+
+		 }
+        .Footer {
+            text-align: center;
+        }
+        .logo {
+            display: block; 
+            margin: 30px auto; 
+            width: 100px; 
+            height: auto; 
+            border-radius: 50%; 
+            object-fit: cover;
+
+	</style>
+
+</head>
+<body>
+<form>
+	<div class="header">
+        <h1>Good to see you again!</h1>
+    </div> 
+
+    <div class="container">   
+        <h2>Login</h2>
+        <form id="loginForm">
+	<img src="https://i.pinimg.com/564x/64/b9/dd/64b9dddabbcf4b5fb2b885927b7ede61.jpg" class="logo"> 
+	<div class="input-container">
+		<i class='bx bxs-user-circle'></i>
+		<input class="input-field" type ="text" placeholder ="Username♡" required>
+	</div>
+
+	<div class="input-container">
+		<i class='bx bxs-envelope'></i>
+		<input type="text" name="email" placeholder="Email♡" required>
+	</div>
+
+	<div class="input-container">
+		<i class='bx bxs-lock'></i>
+		<input class="input-field" type ="password" placeholder ="Password♡" required>
+	</div>
+
+	<div class="remember-forgot">
+		<br><label><input type="checkbox"> Remember me?</label>
+		<right><a href="#">Forgot password?</a></center></br><right>
+	</div>
+
+
+</form>
+
+    <br><button type="submit" class="btn"> Login </button></right></br>
+
+    <div class="register-link">
+		<br><center><p>Don't have an account?
+		<a href="#">Register</a></p></br></center>
+
+	</div>
+    
+    <div class="footer">
+    	<h3>Annika Colleen Zaragoza | 9E</h3>
+    </div>
+
+
+</form>
+</body>
+</html>
